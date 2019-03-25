@@ -45,7 +45,6 @@
   3. 在shell执行过程中如果出错，可以通过重定向的方式，输出到文件中去，比如Command >> filename 2>&1
 * ##### xargs、sed、awk练习
   * xargs
-
     > xargs.sh 
   1. 多行转单行
   2. `-n`参数指定每行的个数
@@ -61,4 +60,5 @@
 
   * awk 
   1. 行匹配输出
+	1. 行匹配输出
 * [附Linux Shell脚本攻略](http://man.linuxde.net/shell-script)
