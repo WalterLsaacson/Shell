@@ -43,5 +43,20 @@
   1. 在shell中有一个变量`$?`,这个变量记录的是上次脚本执行的结果，如果正常结束则是0，否则是非零值
   2. 如果在shell脚本中通过`set -o errexit`来实现遇到错误就退出，可以避免产生很多错误
   3. 在shell执行过程中如果出错，可以通过重定向的方式，输出到文件中去，比如Command >> filename 2>&1
-* ##### xargs、sed、awk练习 
+* ##### xargs、sed、awk练习
+  * xargs
+	xargs.sh
+	1. 多行转单行
+	2. -n参数指定每行的个数
+	3. -d参数指定分隔符，将使用空格进行替换
+	xargs_multi.sh
+	1. 使用xargs替换字符
+	2. 复制多张图片，-I {}表明每条单行数据
+	3. -0参数使用\0(空字符)代替空格分割数据
+	4. 统计所有sh文件的总行数
+	5. 查找所有jpg文件并压缩
+  * sed
+	
+  * awk 
+	1. 行匹配输出
 * [附Linux Shell脚本攻略](http://man.linuxde.net/shell-script)
