@@ -1,0 +1,2 @@
+mapfile array < pids.log
+接下来遍历array数组变量
